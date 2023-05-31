@@ -6,7 +6,7 @@
    `$ cd google_dictionary`
 
 3. In this project, everything runs on the Firefox web browser based on Selenium and WebDriver. Now I use the Firefox webdriver.
-   Install the Firefox browser and WebDriver.
+   Install the Firefox browser and WebDriver. 
 
 4. Run this requirement.txt file using pip.
    `$ pip install -r requirements.txt`
@@ -24,3 +24,7 @@
 
 9. Almost 500 words are created in default_dictionary.txt.
    Just try this one: rename default_dictionary.txt to dictionary.txt.
+   
+10. If you use chrome browser and chrome webdriver follow this link 
+    https://ganesanluna.wordpress.com/2023/01/02/selenium-running-or-testing-with-chrome-in-ubuntu/
+    Kindly change main.py file. The search Firefox instead of chrome.
