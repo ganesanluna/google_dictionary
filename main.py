@@ -8,7 +8,7 @@ from selenium.webdriver.common.by import By
 def main():
     """ Main function of this file """
     # Create Workbook and worksheet
-    workbook = xlsxwriter.Workbook('dictionary_explain.csv')
+    workbook = xlsxwriter.Workbook('dictionary_explain.xlsx')
     worksheet = workbook.add_worksheet()
 
     # Set column width
